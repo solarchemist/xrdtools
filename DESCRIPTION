@@ -1,0 +1,18 @@
+Package: xrdtools
+Type: Package
+Title: Import X-ray Diffraction Data from Various Instruments
+Version: 0.1.0.9000
+Author: Taha Ahmed
+Maintainer: Taha Ahmed <taha@chepec.se>
+Description: A collection of scripts to import ASCII-based X-ray data
+    from various XRD instruments and some simple tools to perform
+    common tasks.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+   dplyr,
+   common,
+   XML,
+   lubridate
+RoxygenNote: 7.2.1
